@@ -1,0 +1,38 @@
+sentencepiece==0.1.99
+torch==2.1.2
+transformers==4.36.2
+peft~=0.7.1
+langchain~=0.1.0
+datasets==2.14.7
+numpy~=1.26.4
+tqdm~=4.66.2
+bs4~=0.0.2
+beautifulsoup4~=4.12.2
+markdownify~=0.11.6
+polyglot~=16.7.4
+pycld2~=0.41
+accelerate~=0.25.0
+psutil~=5.9.7
+rich~=13.7.0
+pandas~=2.2.0
+pytz~=2024.1
+scikit-learn~=1.3.2
+requests~=2.31.0
+aiohttp~=3.9.3
+pydantic~=1.10.13
+scipy~=1.11.4
+evaluate~=0.4.1
+streamlit==1.31.1
+streamlit-chat==0.1.1
+nltk==3.8.1
+jupyterlab==4.1.3
+notebook==7.1.1
+python-dotenv==1.0.1
+
+
+# Code quality
+# ------------------------------------------------------------------------------
+pre-commit==3.6.2  # https://github.com/pre-commit/pre-commit
+flake8==7.0.0  # https://github.com/pycqa/flake8
+black==24.2.0  # https://github.com/psf/black
+isort==5.13.2  # https://pycqa.github.io/isort/
